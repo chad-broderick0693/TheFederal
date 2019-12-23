@@ -93,7 +93,8 @@ nav {
   border-bottom: 0.2rem solid rgba(64, 64, 64, 0.7);
   float: right;
   z-index: 1000;
-  clip-path: polygon(0 0, 80% 0%, 90% 100%, 0% 100%); }
+  clip-path: polygon(0 0, 80% 0%, 90% 100%, 0% 100%);
+  animation: moveInFromLeft 2s backwards ease-out; }
   nav ul {
     list-style-type: none;
     margin: 0;
