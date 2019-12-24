@@ -21,23 +21,54 @@
         </ul>
     </nav>
 
-    <header class="header" id="home">
-        <div class="header__text-box">
-            <h1 class="heading-primary">
-                <!-- <span class="heading-primary--main">The Federal</span>
-                <span class="heading-primary--sub">Coffee House</span> -->
-                <img id="logo" src="./images/Logo--Desktop.svg" alt="Logo">
-            </h1>
+    <div class="parallax">
+        <div id="group1" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+                <header class="header" id="home">
+                    <div class="header__text-box">
+                        <h1 class="heading-primary">
+                            <!-- <span class="heading-primary--main">The Federal</span>
+                            <span class="heading-primary--sub">Coffee House</span> -->
+                            <img id="logo" src="./images/Logo--Desktop.svg" alt="Logo">
+                        </h1>
+                    </div>
+
+                    <div id="arrow-navigate" class="arrow-wrapper">
+                        <div class="arrow"></div>
+                    </div>
+                </header>
+            </div>
         </div>
-    </header>
 
-    <section id="about">
+        <div id="group2" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+                <section id="about">                    
+                </section>
+            </div>
+            <div class="parallax__layer parallax__layer--back">
+                <div class="background">
+                    <div class="about__text-box">
+                        <h1 class="about-primary">
+                            About The Federal
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </section>
+        <div id="group3" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+                <section id="menu">
+                    <div class="menu__text-box">
+                        <h1 class="menu-primary">
+                            Our Menu
+                        </h1>
+                    </div>
+                </section>
+            </div>
+        </div>
 
-    <section id="menu">
-
-    </section>
+    </div>
 
     <script src="main.js"></script>
 </body>
