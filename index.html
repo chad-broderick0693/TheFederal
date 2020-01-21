@@ -17,7 +17,8 @@
         <ul>
             <li class="nav-item" data-nav-id="home">Home</li>
             <li class="nav-item" data-nav-id="about">About</li>
-            <li class="nav-item" data-nav-id="menu">Menu</li>
+            <li class="nav-item" data-nav-id="menu">Menu
+            </li>
         </ul>
     </nav>
 
@@ -32,7 +33,6 @@
                             <img id="logo" src="./images/Logo--Desktop.svg" alt="Logo">
                         </h1>
                     </div>
-
                     <div id="arrow-navigate" class="arrow-wrapper">
                         <div class="arrow"></div>
                     </div>
@@ -42,7 +42,7 @@
 
         <div id="group2" class="parallax__group">
             <div class="parallax__layer parallax__layer--base">
-                <section id="about">                    
+                <section id="about">
                 </section>
             </div>
             <div class="parallax__layer parallax__layer--back">
@@ -70,7 +70,34 @@
 
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to alllinks
+            $("a").on('click', function (event) {
+
+                // Make sure this.hashhas a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    //Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() methodto add smooth page scroll
+                    // The optional number (800) specifies the numberof milliseconds it takes to scroll to the specified area
+                    $('.parallax').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        //window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script> -->
 </body>
 
 </html>
