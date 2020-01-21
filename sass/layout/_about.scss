@@ -1,0 +1,23 @@
+#about {
+  height: 100vh;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/coffee-background.jpg);
+}
+
+.about__text-box {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.about-primary {
+  font-size: 10rem;
+  color: $off-white;
+  font-weight: 550;
+  letter-spacing: 1.5rem;
+  font-family: ACaslonProItalic;
+}
