@@ -1,12 +1,17 @@
-@import "abstracts/_mixins.scss";
 @import "abstracts/_variables.scss";
+@import "abstracts/_mixins.scss";
+@import "abstracts/_parallax.scss";
 
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
 
+@import "layout/about";
 @import "layout/header";
+@import "layout/menu";
 @import "layout/navbar";
 @import "layout/scrollbar";
 
 @import "pages/home";
+
+@import "abstracts/_mediaqueries.scss";

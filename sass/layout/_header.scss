@@ -1,6 +1,7 @@
 .header {
-  position: relative;
-  height: 95vh;
+  height: 100vh;
+  background-image: url(../images/parchment-background.jpg);
+  box-shadow: 0px 10px 32px 12px rgba(0, 0, 0, 0.75);
 
   &__text-box {
     position: absolute;
@@ -8,5 +9,29 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 40%;
+  }
+
+  .arrow-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    width: 11rem;
+    height: 11rem;
+    animation: moveInFromBottom 2s backwards ease-out;
+
+    .arrow {
+      width: 10rem;
+      height: 10rem;
+      background-color: $base-grey;
+      opacity: 0.8;
+      clip-path: polygon(0% 60%, 50% 100%, 100% 60%, 95% 55%, 50% 90%, 5% 55%);
+      animation: float 3s infinite forwards;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
