@@ -170,7 +170,7 @@ nav {
 
 .about__text-box {
   position: absolute;
-  top: 15%;
+  top: 8%;
   left: 5%; }
 
 .about-primary {
@@ -216,7 +216,7 @@ nav {
 
 .menu__text-box {
   position: absolute;
-  top: 15%;
+  top: 8%;
   right: 5%; }
 
 .menu-primary {
@@ -228,22 +228,22 @@ nav {
 
 nav {
   position: fixed;
-  height: 8rem;
+  height: 5rem;
   width: 100vw;
   float: right;
   z-index: 10;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
   animation: moveInFromLeft 2s backwards ease-out;
   background-image: url(../images/parchment-nav.jpg); }
   nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 1rem 2rem;
     padding: 0;
     height: 100%; }
     nav ul li {
       height: 100%;
+      margin-right: 4rem;
       float: left;
-      padding: 3rem 3rem;
       -webkit-user-select: none;
       /* Chrome all / Safari all */
       -moz-user-select: none;
