@@ -170,14 +170,41 @@ nav {
 
 .about__text-box {
   position: absolute;
-  top: 15%;
+  top: 8%;
   left: 5%; }
 
 .about-primary {
   font-size: 10rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: #e0e0e0;
   font-weight: 550;
   letter-spacing: 1.5rem;
+  font-family: ACaslonProItalic; }
+
+.about__statement {
+  position: absolute;
+  width: 100rem;
+  top: 25%;
+  left: 10%; }
+
+.about-secondary {
+  font-size: 3rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white;
+  font-weight: 50;
+  font-family: ACaslonProItalic; }
+
+.about__statement--sub {
+  position: absolute;
+  width: 100rem;
+  top: 50%;
+  right: 8%; }
+
+.about-tertiary {
+  font-size: 2.8rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white;
+  font-weight: 50;
   font-family: ACaslonProItalic; }
 
 .header {
@@ -212,23 +239,93 @@ nav {
 #menu {
   height: 100vh;
   background-image: url(../images/parchment-background.jpg);
-  box-shadow: 0px -10px 32px 12px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0px -10px 32px 12px rgba(0, 0, 0, 0.75);
+  font-family: ACaslonProItalic; }
 
 .menu__text-box {
   position: absolute;
-  top: 15%;
+  top: 8%;
   right: 5%; }
 
 .menu-primary {
   font-size: 10rem;
   color: #404040;
   font-weight: 550;
-  letter-spacing: 1.5rem;
-  font-family: ACaslonProItalic; }
+  letter-spacing: 1.5rem; }
+
+.about-menu {
+  position: absolute;
+  width: 60rem;
+  top: 25%;
+  right: 5%;
+  font-size: 3rem;
+  color: #404040;
+  font-weight: 550; }
+  .about-menu a,
+  .about-menu a:visited {
+    color: inherit; }
+
+.menu-list-container-left {
+  position: absolute;
+  width: 30rem;
+  top: 8%;
+  left: 10%; }
+
+.menu-list-container-right {
+  position: absolute;
+  width: 30rem;
+  top: 8%;
+  left: 30%; }
+
+.menu-list {
+  list-style-type: none; }
+
+.list-header {
+  font-weight: 550;
+  font-size: 5rem;
+  margin-top: 2rem; }
+
+.list-item {
+  font-weight: 550;
+  font-size: 3rem;
+  padding-left: 6rem;
+  height: 4rem; }
+
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 18rem;
+  bottom: 0; }
+
+.location {
+  position: absolute;
+  height: 100%;
+  width: 40rem;
+  font-weight: 550;
+  font-size: 4rem;
+  left: 10%; }
+  .location span {
+    display: block; }
+    .location span:not(:first-child) {
+      font-size: 2.5rem;
+      padding-left: 2rem; }
+
+.contact {
+  position: absolute;
+  height: 100%;
+  width: 50rem;
+  font-weight: 550;
+  font-size: 4rem;
+  right: 10%; }
+  .contact span {
+    display: block; }
+    .contact span:not(:first-child) {
+      font-size: 2.5rem;
+      padding-left: 2rem; }
 
 nav {
   position: fixed;
-  height: 8rem;
+  height: 5rem;
   width: 100vw;
   float: right;
   z-index: 10;
@@ -243,7 +340,7 @@ nav {
     nav ul li {
       height: 100%;
       float: left;
-      padding: 3rem 3rem;
+      padding: 1rem 3rem;
       -webkit-user-select: none;
       /* Chrome all / Safari all */
       -moz-user-select: none;
@@ -274,21 +371,114 @@ nav {
     width: 50%; }
   .about__text-box {
     position: absolute;
-    top: 10rem;
-    left: 5%; }
+    top: 8%;
+    left: 5%;
+    width: 100vw; }
   .about-primary {
-    font-size: 5rem;
+    font-size: 3.3rem;
+    text-align: center;
     color: #e0e0e0;
     font-weight: 550;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
+    font-family: ACaslonProItalic; }
+  .about__statement {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    padding: 0 0.5rem;
+    letter-spacing: 0.1rem;
+    width: 100vw; }
+  .about-secondary {
+    font-size: 1.6rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+    font-weight: 50;
+    font-family: ACaslonProItalic; }
+  .about__statement--sub {
+    position: absolute;
+    width: 100vw;
+    top: 37%;
+    left: 0;
+    padding: 0 0.5rem;
+    letter-spacing: 0.1rem; }
+  .about-tertiary {
+    font-size: 1.5rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+    font-weight: 50;
     font-family: ACaslonProItalic; }
   .menu__text-box {
     position: absolute;
-    top: 10rem;
+    top: 8%;
     right: 5%; }
   .menu-primary {
-    font-size: 5rem;
+    font-size: 3.3rem;
     color: #404040;
     font-weight: 550;
     letter-spacing: 0.5rem;
-    font-family: ACaslonProItalic; } }
+    font-family: ACaslonProItalic; }
+  .about-menu {
+    position: absolute;
+    width: 100vw;
+    top: 15%;
+    right: 0;
+    padding-left: 2rem;
+    font-size: 1.8rem;
+    color: #404040;
+    font-weight: 550; }
+    .about-menu a,
+    .about-menu a:visited {
+      color: inherit; }
+  .menu-list-container-left {
+    position: absolute;
+    width: 30rem;
+    top: 33%;
+    left: 5%; }
+  .menu-list-container-right {
+    position: absolute;
+    width: 30rem;
+    top: 33%;
+    left: 55%; }
+  .menu-list {
+    list-style-type: none; }
+  .list-header {
+    font-weight: 550;
+    font-size: 3rem;
+    margin-top: 0.5rem; }
+  .list-item {
+    font-weight: 550;
+    font-size: 1.7rem;
+    padding-left: 6rem;
+    height: 1.5rem; }
+  .footer {
+    position: absolute;
+    width: 100vw;
+    height: 18rem;
+    bottom: 0; }
+  .location {
+    position: absolute;
+    width: 40rem;
+    height: auto;
+    font-weight: 550;
+    font-size: 2rem;
+    left: 1%;
+    top: 15%; }
+    .location span {
+      display: block; }
+      .location span:not(:first-child) {
+        font-size: 1.8rem;
+        padding-left: 2rem; }
+  .contact {
+    position: absolute;
+    width: 50rem;
+    height: auto;
+    font-weight: 550;
+    font-size: 2rem;
+    right: 1%;
+    left: 0%;
+    top: 50%; }
+    .contact span {
+      display: block; }
+      .contact span:not(:first-child) {
+        font-size: 1.8rem;
+        padding-left: 2rem; } }

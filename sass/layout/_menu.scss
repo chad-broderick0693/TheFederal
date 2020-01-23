@@ -1,13 +1,14 @@
 #menu {
-    height: 100vh;
-    background-image: url(../images/parchment-background.jpg);
-    box-shadow: 0px -10px 32px 12px rgba(0,0,0,0.75);
+  height: 100vh;
+  background-image: url(../images/parchment-background.jpg);
+  box-shadow: 0px -10px 32px 12px rgba(0, 0, 0, 0.75);
+  font-family: ACaslonProItalic;
 }
 
 .menu__text-box {
-    position: absolute;
-    top: 15%;
-    right: 5%;
+  position: absolute;
+  top: 8%;
+  right: 5%;
 }
 
 .menu-primary {
@@ -15,5 +16,93 @@
   color: $base-grey;
   font-weight: 550;
   letter-spacing: 1.5rem;
-  font-family: ACaslonProItalic;
+}
+
+.about-menu {
+  position: absolute;
+  width: 60rem;
+  top: 25%;
+  right: 5%;
+  font-size: 3rem;
+  color: $base-grey;
+  font-weight: 550;
+
+  & a,
+  & a:visited {
+    color: inherit;
+  }
+}
+
+.menu-list-container-left {
+  position: absolute;
+  width: 30rem;
+  top: 8%;
+  left: 10%;
+}
+
+.menu-list-container-right {
+  position: absolute;
+  width: 30rem;
+  top: 8%;
+  left: 30%;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+.list-header {
+  font-weight: 550;
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+
+.list-item {
+  font-weight: 550;
+  font-size: 3rem;
+  padding-left: 6rem;
+  height: 4rem;
+}
+
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 18rem;
+  bottom: 0;
+}
+
+.location {
+  position: absolute;
+  height: 100%;
+  width: 40rem;
+  font-weight: 550;
+  font-size: 4rem;
+  left: 10%;
+
+  span {
+    display: block;
+
+    &:not(:first-child) {
+      font-size: 2.5rem;
+      padding-left: 2rem;
+    }
+  }
+}
+
+.contact {
+  position: absolute;
+  height: 100%;
+  width: 50rem;
+  font-weight: 550;
+  font-size: 4rem;
+  right: 10%;
+
+  span {
+    display: block;
+
+    &:not(:first-child) {
+      font-size: 2.5rem;
+      padding-left: 2rem;
+    }
+  }
 }
