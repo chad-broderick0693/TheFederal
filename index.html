@@ -17,7 +17,8 @@
         <ul>
             <li class="nav-item" data-nav-id="home">Home</li>
             <li class="nav-item" data-nav-id="about">About</li>
-            <li class="nav-item" data-nav-id="menu">Menu</li>
+            <li class="nav-item" data-nav-id="menu">Menu
+            </li>
         </ul>
     </nav>
 
@@ -32,7 +33,6 @@
                             <img id="logo" src="./images/Logo--Desktop.svg" alt="Logo">
                         </h1>
                     </div>
-
                     <div id="arrow-navigate" class="arrow-wrapper">
                         <div class="arrow"></div>
                     </div>
@@ -42,7 +42,7 @@
 
         <div id="group2" class="parallax__group">
             <div class="parallax__layer parallax__layer--base">
-                <section id="about">                    
+                <section id="about">
                 </section>
             </div>
             <div class="parallax__layer parallax__layer--back">
@@ -52,6 +52,28 @@
                             About The Federal
                         </h1>
                     </div>
+                    <div class="about__statement">
+                        <h3 class="about-secondary">
+                            It is the sole aim of the Federal Coffee House to proudly provide its community with
+                            ethically sourced and locally-roasted coffee, as well as a public space for the community to
+                            gather and share
+                        </h3>
+                    </div>
+
+                    <div class="about__statement--sub">
+                        <div class="about-tertiary">
+                            Coffee houses played an important role in the American Revolution and the founding of the
+                            United States. The Federal Coffee House of Mowrystown, Ohio continues this lineage of
+                            providing an open space for the public to gather and share in one another's interests and
+                            day-to-day, all in the Federal Era style and decor of the time period. After the
+                            Revolutionary War, patriots were paid for their service by a limited federal government in
+                            grants of land scattered through the territory now known as the Midwest. Knowing this, the
+                            Federal Coffee House proudly serves fresh cups of ethically-sourced, locally-roasted coffee
+                            to our own and surrounding communities in a small portion of those granted lands in
+                            southwestern Ohio
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -64,13 +86,82 @@
                             Our Menu
                         </h1>
                     </div>
+                    <div class="about-menu">
+                        The Federal Coffee House of Mowrystown, Ohio proudly serves ethically-sourced coffee roasted
+                        locally in Cincinnati, Ohio by the fine roasters of <a href="http://www.coffee-emporium.com"
+                            target="_blank">Coffee Emporium</a>.
+                    </div>
+                    <div class="menu-list-container-left">
+                        <ul class="menu-list">
+                            <li class="list-header">Coffee:</li>
+                            <li class="list-item">House Coffee</li>
+                            <li class="list-item">Seasonal Coffee</li>
+
+                            <li class="list-header">Espresso:</li>
+                            <li class="list-item">Americano</li>
+                            <li class="list-item">Cappuccino</li>
+                            <li class="list-item">Cortado</li>
+                            <li class="list-item">Espresso</li>
+                            <li class="list-item">Latte</li>
+                            <li class="list-item">Macchiato</li>
+                            <li class="list-item">Red Eye</li>
+                        </ul>
+                    </div>
+                    <div class="menu-list-container-right">
+                        <ul class="menu-list">
+                            <li class="list-header">Tea:</li>
+                            <li class="list-item">Earl Grey</li>
+                            <li class="list-item">Green</li>
+                            <li class="list-item">Spiced Chai</li>
+
+                            <li class="list-header">Other:</li>
+                            <li class="list-item">Hot Cocoa</li>
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <div class="location">
+                            <span>Location:</span>
+                            <span>1234 Road Drive 12345 Mowrystown Ohio</span>
+                        </div>
+                        <div class="contact">
+                            <span>Contact:</span>
+                            <span>The Federal Coffee House: (123)-456-7890</span>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
 
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to alllinks
+            $("a").on('click', function (event) {
+
+                // Make sure this.hashhas a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    //Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() methodto add smooth page scroll
+                    // The optional number (800) specifies the numberof milliseconds it takes to scroll to the specified area
+                    $('.parallax').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        //window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script> -->
 </body>
 
 </html>
